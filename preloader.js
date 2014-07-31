@@ -27,8 +27,11 @@ BasicGame.Preloader.prototype = {
     this.load.image('titlepage', 'assets/titlepage.png');
     this.load.image('sea', 'assets/sea.png');
     this.load.image('bullet', 'assets/bullet.png');
+    this.load.image('bomb', 'assets/bomb.png');
+    this.load.image('bombBlast', 'assets/bomb-blast.png');
     this.load.image('enemyBullet', 'assets/enemy-bullet.png');
     this.load.image('powerup1', 'assets/powerup1.png');
+    this.load.image('powerup2', 'assets/powerup2.png');
     this.load.spritesheet('greenEnemy', 'assets/enemy.png', 32, 32);
     this.load.spritesheet('whiteEnemy', 'assets/shooting-enemy.png', 32, 32);
     this.load.spritesheet('boss', 'assets/boss.png', 93, 75);
